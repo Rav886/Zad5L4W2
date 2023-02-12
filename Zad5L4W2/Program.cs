@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            string name, surname, adress, born, namedad, namemam, surnamemam, education, employment, mail;
-            int number, height;
+            string name, surname, adress, birthplace, namedad, namemam, surnamemam, education, employment, mail, number;
+            int height;
             double wight;
 
             Console.WriteLine("Witaj w programie pobierającym Twoje dane");
@@ -20,7 +20,7 @@
             adress = Console.ReadLine();
 
             Console.WriteLine("Podaj swoje miejsce urodzenia");
-            born = Console.ReadLine();
+            birthplace = Console.ReadLine();
 
             Console.WriteLine("Podaj imie ojca");
             namedad = Console.ReadLine();
@@ -41,7 +41,7 @@
             mail = Console.ReadLine();
 
             Console.WriteLine("Podaj swoj numer telefonu");
-            number = int.Parse(Console.ReadLine());
+            number = (Console.ReadLine());
 
             Console.WriteLine("Podaj swoj wzrost");
             height = int.Parse(Console.ReadLine());
